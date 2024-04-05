@@ -16,14 +16,12 @@
     <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-visible@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     
     <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">Markus Hoehn</a>
+        <a href="index.html" class="uk-navbar-item uk-logo uk-light">Markus Hoehn</a>
     </div>
     <div class="uk-navbar-right">
 
         <ul class="uk-navbar-nav uk-light">
-            <li><a class="uk-button-text uk-text-capitalize" href="#about" uk-scroll>About</a></li>
-            <li><a class="uk-button-text uk-text-capitalize" href="#coursework" uk-scroll>Coursework</a></li>
-
+            <li><a class="uk-button-text uk-text-capitalize" href="coursework.html">Coursework</a></li>
         </ul>
 
     </div>
@@ -34,40 +32,31 @@
 <nav class="uk-navbar-container uk-margin-small-left uk-margin-small-right uk-hidden@m uk-margin-xlarge-left uk-margin-xlarge-right" uk-navbar uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
     
     <div class="uk-navbar-left">
-        <a href="" class="uk-navbar-item uk-logo uk-light">Markus Hoehn</a>
+        <a href="index.html" class="uk-navbar-item uk-logo uk-light">Markus Hoehn</a>
     </div>
     <div class="uk-navbar-right">
 
         <ul class="uk-navbar-nav uk-light">
             <li><button uk-toggle="target: #offcanvas-nav" type="button" uk-navbar-toggle-icon></button></li>
-
         </ul>
 
     </div>
 </nav>
-<!-- Change This -->
+<!-- Navigation Bar Mobile Ends -->
 <div id="offcanvas-nav" uk-offcanvas="overlay: true">
     <div class="uk-offcanvas-bar uk-flex uk-flex-column">
 
         <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
-            <li class="uk-active"><a href="#" uk-scroll>Home</a></li>
-            <li class="uk-active"><a href="#about" uk-scroll>About</a></li>
-            <li class="uk-active"><a href="#coursework" uk-scroll>Coursework</a></li>
+            <li class="uk-active"><a href="index.html">Home</a></li>
+            <li class="uk-active"><a href="coursework.html">Coursework</a></li>
         </ul>
-
-
-
 
     </div>
 </div>
 
-<!-- Navigation Bar Mobile Ends -->
 <!-- Home -->
 <section class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
     <h1 class="uk-margin-xlarge-left uk-light uk-text-left uk-margin-xlarge-right">Hey! I'm Markus Hoehn.</h1>
-    <a href="#about" class="uk-margin-xlarge-left uk-text-capitalize uk-button uk-button-secondary" uk-scroll>About Me</a>
-
-
 </section>
 
 <!-- Home Ends -->
@@ -79,78 +68,13 @@
 <!-- About Me -->
 <section id="about" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
 <h3 class="uk-margin-xlarge-left uk-light">About Me</h3>
-<!-- Change here to ur paragraph -->
 <p class="uk-margin-xlarge-left uk-margin-xlarge-right">Hey! My name is Markus Hoehn. I'm 17 and live in Kansas. Currently, I'm in high school, but I have been involved in activities at Kansas State University. My email is markush[at]ksu[dot]edu.</p>
 <div class="uk-flex uk-flex-center">
     <a href="https://github.com/markusHoehn2007/" class="uk-button-text uk-light" uk-icon="icon: github; ratio: 3;"></a>
     <span style="margin-right: 50px;"></span> <!-- This adds a space -->
     <a href="mailto:markush@ksu.edu" class="uk-button-text uk-light" uk-icon="icon: mail; ratio: 3;"></a>
 </div>
-
-
-
-
-<!-- About Me Ends -->
-
-
-
-
 </section>
 
-<!-- Coursework Section -->
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-<section id="coursework" class="uk-margin-small-left uk-margin-small-right uk-margin-xlarge-top uk-margin-xlarge-bottom">
-<h3 class="uk-margin-xlarge-left uk-light">Coursework</h3>
-<p class="uk-margin-xlarge-left">Coursework that i've taken at Kansas State University</p>
-
-<div class="uk-margin-xlarge-left uk-margin-xlarge-right">
-    <!-- Change all of this to ur coursework -->
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>CIS 575 - Introduction to Algorithm Analysis</h4>
-            <p>An introduction to mathematical analysis of time- and space-complexity of algorithms, including worst-case, average-case, and amortized complexity. An examination of various algorithmic designs, such as greedy algorithms, divide-and-conquer algorithms, and dynamic programming algorithms. Techniques for proving correctness of algorithms.</p>
-        </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>CIS 301 - Logical Foundations of Programming</h4>
-            <p>Logical formalisms used to model and reason about computer systems. Propositional and predicate logic, syntax, semantics, and proof theory; soundness and completeness issues. Mathematical induction. Program verification: invariants and program logics.</p>
-        </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>CIS 300 - Data and Program Structures</h4>
-            <p>A study of common data and program structures together with associated algorithms. Topics include interfaces, design patterns, arrays, stacks, queues, lists, trees, hash tables, recursion, binary search, and tree traversals. Experience with both use and implementation of these structures and algorithms using a modern programming language. Discussion of tradeoffs involving performance and software maintainability.</p>
-        </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>PHYS 532 - Electromagnetic Fields I</h4>
-            <p>An introduction to electricity and magnetism. The first of a two semester study of Maxwell’s equations in both integral and differential forms. Topics include electrostatics with vector calculus; electrostatic potential solutions in rectangular, cylindrical, and spherical coordinates; dielectrics; electrostatic energy and capacitance; magnetostatics with vector calculus; Biot-Savart law; vector and scalar potentials for magnetism; magnetic permeability; Faraday’s law in integral and differential form; magnetic energy and inductance; displacement current; lumped oscillations and LCR systems; impedance.</p>
-        </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>PHYS 522 - Mechanics</h4>
-            <p>Principles of statistics and dynamics of systems of particles and rigid bodies. Topics include Newton’s laws for one particle, non-inertial reference frames, central forces, system of particles, rigid body statics and motion in a plane and in three dimensions, Lagrangian mechanics and Hamilton’s equations, oscillating systems and normal coordinates.</p>
-        </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>MATH 723 - Complex Functions</h4>
-            <p>Introduction to the theory of analytic functions, designed to prepare students for the qualifying exams. Holomorphic functions, contour integrals, residue theory, conformal mapping and other topics.</p>
-        </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>MATH 633 - Advanced Calculus I (Real Analysis)</h4>
-            <p>Functions of one variable; limits, continuity, differentiability, Riemann-Stieltjes integral, sequences, series, power series, improper integrals.</p>
-        </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>MATH 510 - Discrete Mathematics</h4>
-            <p>Combinatorics and graph theory. Topics selected from counting principles, permutations and combinations, the inclusion-exclusion principle, recurrence relations, trees, graph coloring, Eulerian and Hamiltonian circuits, block designs, and Ramsey Theory.</p>
-        </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>MATH 351 - Mathematical Scholars Calculus 4</h4>
-            <p>A continuation in the sequence of courses focused on Calculus. Provides the second semester of an integrated approach to linear algebra, multivariable calculus, and ordinary differential equations. Students will apply knowledge from one variable calculus and linear algebra to the higher dimensional setting, but many computations will take place in the low 2 and 3 variable cases. Topics include linear ordinary differential equations, Picard’s Theorem, limits and continuity in many variables, partial derivatives, optimization problems, integration of functions of several variables, Fubini’s Theorem, integration of differential forms and Generalized Stokes’ Theorem.</p>
-        </div>
-        <div class="uk-margin uk-card uk-card-secondary uk-card-body ">
-            <h4>MATH 350 - Mathematical Scholars Calculus 3</h4>
-            <p>A continuation in the sequence of courses focused on Calculus. Provides the first semester of an integrated approach to linear algebra, multivariable calculus, and ordinary differential equations with specific topics including vector spaces, linear transformations, solutions to matrix equations, dimension, rank, eigenvalues, inner products, Sylvester’s Theorem, multi-linear algebra, vector valued functions, vector fields and general ordinary differential equations.</p>
-        </div>
-</div>
-    <br>
-</section>
-<hr class="uk-margin-xlarge-left uk-margin-xlarge-right">
-</div>
-<!-- Coursework Section Ends -->
-    
 </body>
 </html>
